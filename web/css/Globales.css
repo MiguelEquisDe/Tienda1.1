@@ -1,0 +1,44 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#pies {
+    width: 100%;
+    background: grey;
+    position: absolute;
+    bottom: 0 !important;
+    bottom: -1px;
+    height: 100px;
+}
+
+.sidebar-col{
+    background: linear-gradient(to bottom, grey 50%, white);
+    color: black;
+    font-size: 20px;
+    height: auto;
+    max-width: 15%;
+    padding: inherit;
+}
+
+.sidebar-col a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    width: 80%;
+    display: block;
+    transition: 1s;
+    padding: 8px;
+    margin-left: 20px;
+}
+
+.sidebar-col a:hover{
+    background-color: #343a40;
+    border-radius: 15px;
+    width: 150px;
+    color: white;
+}
+input[placeholder]{
+    color: gray !important;
+}
